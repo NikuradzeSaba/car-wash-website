@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ezel Car Wash | Premium Service</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Ezel Car Wash</div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+  <nav id="nav">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Premium Car Wash Experience</h1>
+    <p>We make your car shine like brand new</p>
+    <button onclick="scrollToSection('services')">Explore Services</button>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+
+  <div class="services">
+    <div class="card">
+      <h3>Exterior Wash</h3>
+      <p>Deep cleaning for perfect shine</p>
+      <span>$10</span>
+    </div>
+
+    <div class="card">
+      <h3>Interior Cleaning</h3>
+      <p>Fresh & detailed interior care</p>
+      <span>$20</span>
+    </div>
+
+    <div class="card">
+      <h3>Full Detail</h3>
+      <p>Complete premium service</p>
+      <span>$40</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Book an Appointment</h2>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="text" placeholder="Phone Number" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send Request</button>
+  </form>
+
+  <p>📍 Tbilisi, Georgia | 📞 +995 555 123 456</p>
+</section>
+
+<footer>
+  <p>© 2026 Ezel Car Wash. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+<div id="loader">
+  <h2>Loading...</h2>
+</div>
+
+</body>
+</html>
